@@ -1,0 +1,38 @@
+.axios {
+  padding: 45px 0;
+}
+.axios h1 {
+  padding-bottom: 20px;
+}
+.axios button {
+  margin-right: 15px;
+  margin-bottom: 20px;
+}
+.users-container {
+  margin: 1em;
+  padding: 1em;
+  border-radius: 10px;
+}
+
+.user {
+  margin: 1em;
+  padding: 30px;
+  border: 1px solid #a52a2a;
+  border-top-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  float: left;
+  width: 30%;
+  text-align: left;
+  line-height: 30px;
+}
+@media screen and (max-width: 1080px) {
+  .user {
+    width: 45%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .user {
+    width: 100%;
+  }
+}
+
